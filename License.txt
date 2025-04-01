@@ -2,15 +2,15 @@ License
 
 (Modified – Canada Restriction & No IP Claims) 
 
-Permission is hereby granted, free of charge, to any person except those in Canada obtaining a copy  
+Permission is hereby granted, free of charge, to any person except those in Canada, Denmark obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
 in the Software without restriction, including without limitation the rights  
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
 copies of the Software, and to permit persons to whom the Software is  
 furnished to do so, subject to the following conditions:  
 
-1. **Canadian Restriction**:  
-   This Software **may not be used, sold, adapted, or transferred** in the country of **Canada**  
+1. **Canadian, Denmark Restriction**:  
+   This Software **may not be used, sold, adapted, or transferred** in the country of **Canada**, **Denmark**  
    by any individual, entity, or organization, whether directly or indirectly. 
    This Section (1.) Must remain in all derivative sublicense.
 
