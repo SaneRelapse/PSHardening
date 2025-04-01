@@ -1,7 +1,7 @@
 ﻿# Removed Protocol 4, 6, 17
 # This script is designed to manage and secure all incoming network traffic to your Windows system. It ensures that only the traffic
 # using protocols 4, 6, and 17 is allowed, and every other protocol is blocked.
-
+# This script was designed for Home Users who only use Chrome/Edge, Script is not intended for use by Gamers or Business/companys
 
 
 
