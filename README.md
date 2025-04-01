@@ -3,3 +3,5 @@ PSFortify: A curated collection of advanced PowerShell scripts designed to autom
 
 Make sure to backup your firewall before use.
 Consult a cyber security professional before implementing these scripts on your networks....
+
+Concerns regarding the License: License was created with the purpose to discourage boycotting products including software products based on Country of origin. Canada is the only known country currently implementing these practices.
