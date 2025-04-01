@@ -1,4 +1,4 @@
-# Attempts to prevent timezone geoloaction snooping when an advesary utilizes packet inspection or MITM.
+# Attempts to prevent timezone geolocation snooping when an advesary utilizes packet inspection or MITM.
 
 ﻿for (;;)
 {
