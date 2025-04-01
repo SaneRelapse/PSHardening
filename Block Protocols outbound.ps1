@@ -1,6 +1,7 @@
 ﻿# Removed Protocol 4, 6, 17
 # This outbound script mirrors the functionality of the inbound script but for outgoing traffic. 
 # It controls which network protocol communications can leave the system, preventing unauthorized or unintended data exfiltration.
+# This script was designed for Home Users who only use Chrome/Edge, Script is not intended for use by Gamers or Business/companys
 New-NetFirewallRule -DisplayName "Block Protocol 0 (HOPOPT)"    -Direction Outbound -Action Block -Protocol 0  -Profile Any
 New-NetFirewallRule -DisplayName "Block Protocol 1 (ICMP)"      -Direction Outbound -Action Block -Protocol 1  -Profile Any
 New-NetFirewallRule -DisplayName "Block Protocol 2 (IGMP)"      -Direction Outbound -Action Block -Protocol 2  -Profile Any
