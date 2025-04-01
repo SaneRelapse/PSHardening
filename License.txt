@@ -11,14 +11,15 @@ furnished to do so, subject to the following conditions:
 
 1. **Canadian Restriction**:  
    This Software **may not be used, sold, adapted, or transferred** in the country of **Canada**  
-   by any individual, entity, or organization, whether directly or indirectly.  
+   by any individual, entity, or organization, whether directly or indirectly. 
+   This Section (1.) Must remain in all derivative sublicense.
 
 2. **No Intellectual Property Theft Claims**:  
    If any person or entity modifies, adapts, or incorporates parts of this Software into their  
    own software, the original author(s) and contributors and other users **waive the right** to claim  
    intellectual property theft, infringement, or demand legal action regarding the Powershell **scripts themselves** there content.  
    This does not apply to **trademarked names, branding, or non-original-script-related IP**.  
-   This Section (2.) Must remain in all derivative sublicense.
+  
 
 3. The above copyright notice and this permission notice shall be included in  
    all copies or substantial portions of the Software.  
