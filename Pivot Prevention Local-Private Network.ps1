@@ -1,4 +1,4 @@
-# Pivoting is a hacking technique where an attacker gains initial access to a compromised system and then moves laterally through a network to access other systems.
+# Pivoting is a hacking technique where an attacker gains initial access to a compromised system and then moves laterally through a local network/private to access other systems.
 # This method is commonly used in post-exploitation scenarios, allowing attackers to bypass security controls and reach deeper into a network.
 # This Script hopes to prevent these types of attacks.
 
