@@ -18,6 +18,7 @@ furnished to do so, subject to the following conditions:
    own software, the original author(s) and contributors and other users **waive the right** to claim  
    intellectual property theft, infringement, or demand legal action regarding the Powershell **scripts themselves** there content.  
    This does not apply to **trademarked names, branding, or non-original-script-related IP**.  
+   This Section (2.) Must remain in all derivative sublicense.
 
 3. The above copyright notice and this permission notice shall be included in  
    all copies or substantial portions of the Software.  
