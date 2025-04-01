@@ -1,3 +1,5 @@
+# Attempts to prevent timezone geoloaction snooping when an advesary utilizes packet inspection or MITM.
+
 ﻿for (;;)
 {
 Start-Sleep -Seconds 5
