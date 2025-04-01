@@ -1,3 +1,7 @@
+# Mitigate Uptime calculation
+# Mitigate Host identification using clock skew
+
+
 ﻿netsh int tcp set global timestamps=disabled
 
 
