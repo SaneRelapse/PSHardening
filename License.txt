@@ -1,6 +1,6 @@
 License
 
-(Modified – Canada Restriction & No IP Claims) 
+(Modified – Canada, Denmark Restriction & No IP Claims) 
 
 Permission is hereby granted, free of charge, to any person except those in Canada, Denmark obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
