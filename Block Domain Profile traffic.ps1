@@ -29,10 +29,8 @@
 # and logs connection attempts for auditing.
 
 # Block all inbound traffic on Domain profile
-New-NetFirewallRule -DisplayName "Block All Inbound Traffic - Domain" -Direction Inbound -Action Block -Profile Domain -Protocol Any -LogBlocked True
+New-NetFirewallRule -DisplayName "Block All Inbound Traffic - Domain" -Direction Inbound -Action Block -Profile Domain -Protocol Any
 
 # Block all outbound traffic on Domain profile
-New-NetFirewallRule -DisplayName "Block All Outbound Traffic - Domain" -Direction Outbound -Action Block -Profile Domain -Protocol Any -LogBlocked True
+New-NetFirewallRule -DisplayName "Block All Outbound Traffic - Domain" -Direction Outbound -Action Block -Profile Domain -Protocol Any
 
-# Enable logging of dropped packets for auditing
-Set-NetFirewallProfile -Profile Domain -LogBlocked True -LogFileName "%SystemRoot%\System32\LogFiles\Firewall\domain_firewall.log" -LogMaxSizeKilobytes 32768
