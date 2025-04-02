@@ -1,4 +1,5 @@
-﻿# Get all scheduled tasks under the "Windows" folder that contain "RemoteAssistance"
+# By default there are remote assistance tasks in task scheduler this script is intended to remove them. 
+# Get all scheduled tasks under the "Windows" folder that contain "RemoteAssistance"
 $tasks = Get-ScheduledTask -TaskPath "\Microsoft\Windows\RemoteAssistance\" -ErrorAction SilentlyContinue
 
 # Check if any tasks exist
