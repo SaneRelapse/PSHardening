@@ -25,4 +25,4 @@ Set-Service -Name "LanmanWorkstation" -StartupType Disabled
 # ✅ Enabling auditing of named pipes
 # ✅ Enforcing secure authentication (blocking LM & NTLMv1)
 # ✅ Blocking anonymous access to named pipes and shares
-# ✅ Disabling NetBIOS & SMB services to reduce attack surface
+# ✅ Disabling SMB services to reduce attack surface
