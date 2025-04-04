@@ -1,4 +1,4 @@
-﻿# Audit-SecurityPosture.ps1
+# Audit-SecurityPosture.ps1
 # ============================================
 # This script audits your computer's security posture by retrieving
 # various configuration settings and statuses that impact system security.
@@ -128,7 +128,8 @@ try {
 # ----------------------------------------------------------------
 Write-Host "`n-- Audit Policy Settings --" -ForegroundColor Green
 try {
-    $auditPolicies = auditpol /get /category:"*"
+    # Capture the audit policy output as a single formatted string
+    $auditPolicies = auditpol /get /category:"*" | Out-String
     Write-Host $auditPolicies
 } catch {
     Write-Host "Unable to retrieve audit policy settings."
