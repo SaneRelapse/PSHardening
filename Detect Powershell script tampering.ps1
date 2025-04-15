@@ -1,4 +1,4 @@
-# This script is still in production and is not perfect.
+# This script is still in production and is not perfect. it will throw a false positive on almost every file.
 
 
 # Advesary may inject BOM/Invisible Characters into a PS1 file to hinder a Admin.
