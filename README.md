@@ -6,4 +6,4 @@ Consult a cyber security professional before implementing these scripts on your 
 
 Concerns regarding the License: License was created with the purpose to discourage boycotting products including software products based on Country of origin. Canada, Denmark is the only known countrys currently implementing these practices. The license may be subject to change in the coming years depending on nation by nation conduct. While the USA did implement Tarrifs(Tax) they did not advocate for discrimination.
 
-Github.com is Allowed to host the scripts to all nations but that doesn't mean they can lawfully download them.
+Github.com is Allowed to host the scripts to all nations but that doesn't mean they (the nations) can lawfully download them.
