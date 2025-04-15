@@ -1,3 +1,6 @@
+# This script is still in production and is not perfect.
+
+
 # Advesary may inject BOM/Invisible Characters into a PS1 file to hinder a Admin.
 ﻿# BOM (Byte Order Mark) and other invisible characters can silently corrupt PowerShell scripts. These characters, 
 # which might be present at the very beginning of a file, can alter the actual content that PowerShell reads. 
