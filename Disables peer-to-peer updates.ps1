@@ -53,5 +53,6 @@
 
 # Set the registry value to disable peer-to-peer updates (Delivery Optimization)
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization" -Name "DODownloadMode" -Value 0
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\DoSvc" /v Start /t REG_DWORD /d 4 /f
 
 
