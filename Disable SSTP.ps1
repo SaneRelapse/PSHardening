@@ -2,6 +2,8 @@
 # The SSTP service (SstpSvc) handles Secure Socket Tunneling Protocol (SSTP) VPN connections,
 # which provide secure remote access over HTTPS.
 #
+# If you disable SSTP you may not be able to use VPN.
+# If you do disable SSTP you can renable it.
 # Remote Access Note:
 # When enabled, SSTP allows authorized remote users to connect securely to a network.
 # However, if you do not use SSTP for remote access, leaving this service enabled can 
