@@ -1,3 +1,4 @@
+# Warning: THIS DOES NOT STOP BASHBUNNY MALICIOUS USB
 ﻿# =============================================================================
 # Anti-Persistence & Forensic Tweaks
 # Purpose: Prevent malicious USB media from auto-executing code while
