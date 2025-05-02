@@ -40,3 +40,9 @@ Get-NetAdapter | ForEach-Object {
     Set-NetAdapterAdvancedProperty -Name $_.Name -DisplayName "NetBIOS" -DisplayValue "Disabled"
 }
 netsh interface ipv4 set subinterface "Ethernet" netbios=disabled
+New-ItemProperty `
+  -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Dhcp\Parameters\Options\DhcpNetbiosOptions" `
+  -Name OptionId `
+  -PropertyType DWord `
+  -Value 4 `
+  -Force
