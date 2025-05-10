@@ -42,3 +42,4 @@ Set-ProcessMitigation -Name copilot.exe -Enable EnableRopStackPivot
 Set-ProcessMitigation -Name copilot.exe -Enable EnableRopCallerCheck
 
 Write-Host "Mitigation policy fully applied to copilot.exe." -ForegroundColor Green
+# DO NOT ENABLE BlockDynamicCode IT WILL BREAK COPILOT
