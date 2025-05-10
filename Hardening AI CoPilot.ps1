@@ -43,4 +43,5 @@ Set-ProcessMitigation -Name copilot.exe -Enable EnableRopCallerCheck
 
 Write-Host "Mitigation policy fully applied to copilot.exe." -ForegroundColor Green
 # DO NOT ENABLE BlockDynamicCode IT WILL BREAK COPILOT
+# This may provide a meager safeguard in the chance that Ai goes rogue....
 # WARNING: THIS SCRIPT IS EXPERIMENTAL
