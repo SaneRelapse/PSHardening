@@ -18,7 +18,7 @@ foreach ($ep in $udpEPs) { $knownUdp.Add($ep.Port) | Out-Null }
 Write-Host "Known TCP listeners: $($knownTcp.Count)"
 Write-Host "Known UDP listeners: $($knownUdp.Count)"
 
-# 3) Brute‑force bind on missing ports
+# 3) bind on missing ports
 $hidden = [System.Collections.Generic.List[psobject]]::new()
 
 for ($port = 1; $port -le 65535; $port++) {
