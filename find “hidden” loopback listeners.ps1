@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-  Enumerate actual TCP/UDP listeners and detect hidden ones via bind() brute‑force.
+  Enumerate actual TCP/UDP listeners and detect hidden ones via bind()
 #>
 
 # 1) Gather known listeners
