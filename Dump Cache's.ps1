@@ -1,3 +1,20 @@
+# Not all Cache are output in this script but i added them so you are in the know....
+# Cache Type         | User Visible? | Forensic Value | Resides In
+# ---------------------------------------------------------------
+# DNS Cache          | No            | Medium         | RAM
+# ARP Cache          | No            | Low            | Kernel table
+# NetBIOS Cache      | No            | Low            | Kernel table
+# NSI Database       | No            | High           | Registry
+# WER Crash Cache    | No            | High           | File system
+# Prefetch           | No            | High           | File system
+# SRUM               | No            | Very High      | SQLite DB
+# Shim Cache         | No            | Very High      | Registry
+# UserAssist         | No            | Medium         | Registry
+# Jump Lists         | No            | Medium         | File system
+# Thumb/Icon Cache   | No            | High           | File system
+# WMI Consumers      | No            | Very High      | WMI store
+
+
 ﻿Write-Host "=== DNS Cache ===" -ForegroundColor Cyan
 try {
     ipconfig /displaydns
