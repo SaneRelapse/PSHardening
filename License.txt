@@ -15,7 +15,7 @@ furnished to do so, subject to the following conditions:
    This Section (1.) Must remain in all derivative sublicense.
 
 2. Waiver of Intellectual Property Theft Claims
-Any individual or entity that modifies, adapts, integrates, or uses portions of this Software—specifically the PowerShell scripts—into their own software or tools irrevocably waives the right to claim intellectual property theft, infringement, or pursue legal action related to the scripts or their content. This waiver applies to the original authors, contributors, users, developers, and any downstream parties.
+Any individual or entity that modifies, adapts, integrates, or uses portions of this Software—specifically the PowerShell scripts—into their own software or tools irrevocably waives the right to claim intellectual property theft, infringement, or pursue legal action related to the scripts or their content. This waiver applies to the original authors, contributors, users, developers, companies, business, private entities and any downstream parties.
 
 Exceptions: This waiver does not extend to any trademarked names, branding, or intellectual property unrelated to the original PowerShell scripts. 
   
