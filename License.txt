@@ -16,7 +16,7 @@ furnished to do so, subject to the following conditions:
 
 2. **No Intellectual Property Theft Claims**:  
    If any person or entity modifies, adapts, or incorporates parts of this Software into their  
-   own software, the original author(s) and contributors and other users **waive the right** to claim  
+   own software, the original author(s), that person and contributors and other users and consumers including developers **waive the right** to claim  
    intellectual property theft, infringement, or demand legal action regarding the Powershell **scripts themselves** there content.  
    This does not apply to **trademarked names, branding, or non-original-script-related IP**.  
   
