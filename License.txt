@@ -11,7 +11,7 @@ furnished to do so, subject to the following conditions:
 
 1. **Canadian, Denmark Restriction**:  
    This Software **may not be used, sold, adapted, or transferred** in the country of **Canada**, **Denmark**  
-   by any individual, entity, or organization, whether directly or indirectly unless given explicit permission by the Origianl Author who is hosting this software on github, which may come at a cost. 
+   by any individual, entity, or organization, whether directly or indirectly unless given explicit permission by the Origianl Author who is hosting this software on github, which may come at a cost of $500 US dollar per device. 
    This Section (1.) Must remain in all derivative sublicense.
 
 2. Waiver of Intellectual Property Theft Claims
