@@ -1,0 +1,1 @@
+﻿Set-ProcessMitigation -Name ChatGPT.exe -Enable DEP,ForceRelocateImages,HighEntropy,SEHOP,CFG,TerminateOnError,EnableExportAddressFilter,EnableImportAddressFilter,EnableRopStackPivot,EnableRopCallerCheck
