@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Audit-DefenderExclusions – Retrieves Windows Defender exclusions to help you harden your system.
 
@@ -20,14 +20,17 @@ function Audit-DefenderExclusions {
     Write-Host "===== Audit: $AuditName =====" -ForegroundColor Cyan
 
     # Step 1: Retrieve Defender preferences
-    # 🔍 Helps you see if any critical folders or files are excluded—gaps in scan coverage.
-    $prefs = Get-MpPreference
+    try {
+        $prefs = Get-MpPreference
+    } catch {
+        Write-Error "Failed to retrieve Defender preferences. Are you running as Administrator?"
+        return
+    }
 
     # Step 2: Show excluded file paths
     Write-Host "`n[1] Excluded Paths:" -ForegroundColor Green
-    if ($prefs.ExclusionPath.Count) {
+    if ($prefs.ExclusionPath -and $prefs.ExclusionPath.Count -gt 0) {
         $prefs.ExclusionPath | ForEach-Object {
-            # ⚠️ If this path is system-critical or user data, reconsider exclusion.
             Write-Host " - $_"
         }
     } else {
@@ -36,9 +39,8 @@ function Audit-DefenderExclusions {
 
     # Step 3: Show excluded file extensions
     Write-Host "`n[2] Excluded Extensions:" -ForegroundColor Green
-    if ($prefs.ExclusionExtension.Count) {
+    if ($prefs.ExclusionExtension -and $prefs.ExclusionExtension.Count -gt 0) {
         $prefs.ExclusionExtension | ForEach-Object {
-            # ⚠️ Wildcard extensions (e.g. *.exe) are high-risk—scanner blind spots.
             Write-Host " - $_"
         }
     } else {
@@ -47,9 +49,8 @@ function Audit-DefenderExclusions {
 
     # Step 4: Show excluded processes
     Write-Host "`n[3] Excluded Processes:" -ForegroundColor Green
-    if ($prefs.ExclusionProcess.Count) {
+    if ($prefs.ExclusionProcess -and $prefs.ExclusionProcess.Count -gt 0) {
         $prefs.ExclusionProcess | ForEach-Object {
-            # ⚠️ Excluding critical system processes (e.g. powershell.exe) can allow malware to hide.
             Write-Host " - $_"
         }
     } else {
@@ -59,16 +60,15 @@ function Audit-DefenderExclusions {
     Write-Host "`n===== End of $AuditName =====" -ForegroundColor Cyan
 
     # Hardening Recommendations
-    @"
+    Write-Host @"
 HARDENING GUIDANCE:
  • Review each exclusion—ensure only absolutely necessary items are excluded.
  • Remove broad paths (e.g., C:\) or wildcard extensions (*.exe, *.dll).
  • Avoid excluding system or scripting hosts (powershell.exe, wscript.exe).
  • Document any allowed exclusions in your security policy.
  • Run this audit regularly (e.g., via Scheduled Task) to detect unauthorized changes.
-"@ | Write-Host
+"@ -ForegroundColor Yellow
 }
 
 # Execute the audit
 Audit-DefenderExclusions
-
