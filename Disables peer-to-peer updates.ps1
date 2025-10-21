@@ -55,4 +55,5 @@
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization" -Name "DODownloadMode" -Value 0
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\DoSvc" /v Start /t REG_DWORD /d 4 /f
 
+# if DeliveryOptimization is still being turned on persistently you may need to apply icacls mitigations as some malware/spyware is persistent especially how this is used to Pivot by attackers
 
